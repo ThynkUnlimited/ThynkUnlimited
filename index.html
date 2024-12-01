@@ -3,90 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Business</title>
+    <title>Thynk Unlimited - We Offer a Variety of Services</title>
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
         }
+
         header {
-            background: #0078D7;
+            background-color: #0078D7;
             color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #333;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
             padding: 20px;
             text-align: center;
         }
-        .service {
-            margin: 20px auto;
-            padding: 15px;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            max-width: 400px;
+
+        header h1 {
+            margin: 0;
         }
-        footer {
-            text-align: center;
+
+        nav {
+            background: #444;
             padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #0078D7;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #0078D7;
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        .section ul li::before {
+            content: "•";
+            color: #0078D7;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        footer {
             background: #0078D7;
             color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Business</h1>
-        <p>Your one-stop shop for quality goods and services</p>
+        <h1>Thynk Unlimited</h1>
+        <p>We Offer a Variety of Services</p>
     </header>
+
     <nav>
-        <a href="#goods">Goods</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact Us</a>
+        <a href="#coins">Digital Coin Services</a>
+        <a href="#tax">Tax Solutions</a>
+        <a href="#graphics">Graphics Design</a>
+        <a href="#editing">Editing & Verification</a>
+        <a href="#integrated">Integrated Solutions</a>
+        <a href="#documents">Document Assistance</a>
     </nav>
+
     <div class="container">
-        <h2 id="goods">Our Goods</h2>
-        <div class="service">
-            <h3>Product 1</h3>
-            <p>High-quality product description here.</p>
-        </div>
-        <div class="service">
-            <h3>Product 2</h3>
-            <p>Another amazing product description here.</p>
-        </div>
-        <h2 id="services">Our Services</h2>
-        <div class="service">
-            <h3>Service 1</h3>
-            <p>Reliable service description here.</p>
-        </div>
-        <div class="service">
-            <h3>Service 2</h3>
-            <p>Excellent service description here.</p>
-        </div>
-        <h2 id="contact">Contact Us</h2>
-        <p>Email: yourbusiness@example.com</p>
-        <p>Phone: +123 456 7890</p>
+        <section id="coins" class="section">
+            <h2>Digital Coin Services</h2>
+            <ul>
+                <li>Worldcoins</li>
+                <li>USDT</li>
+                <li>Binance Assets</li>
+                <li>Digital Dollars</li>
+                <li>Bitcoin</li>
+            </ul>
+        </section>
+
+        <section id="tax" class="section">
+            <h2>Tax Solutions</h2>
+            <ul>
+                <li>🤾🏻‍♀ KRA Services</li>
+                <li>🟡 Nil Returns</li>
+                <li>🔺 Employment Returns (with or without P9)</li>
+                <li>▪ Company Returns</li>
+                <li>▫ Self-Assessment</li>
+                <li>🚴🏻‍♂ Amnesty Applications</li>
+                <li>🎖 KRA PIN Retrieval</li>
+                <li>🏅 New PIN Registration</li>
+                <li>🎯 Addition of VAT Obligation</li>
+                <li>🎗 ETIMS Registration and Installation</li>
+            </ul>
+        </section>
+
+        <section id="graphics" class="section">
+            <h2>Graphics Design</h2>
+            <ul>
+                <li>🟡 Eye-catching Flyers</li>
+                <li>🟣 Stunning Program Cards</li>
+                <li>🔴 Elegant Wedding Invitations</li>
+                <li>🔵 Professional CVs & Cover Letters</li>
+            </ul>
+        </section>
+
+        <section id="editing" class="section">
+            <h2>Editing & Verification</h2>
+            <ul>
+                <li>Pdfs, documents, or photo editing</li>
+                <li>Certificates</li>
+                <li>Bank Statements</li>
+                <li>Proof of Address</li>
+                <li>Invoices</li>
+                <li>Letterheads</li>
+                <li>Business Certificates</li>
+            </ul>
+        </section>
+
+        <section id="integrated" class="section">
+            <h2>Integrated Solutions</h2>
+            <ul>
+                <li>📄 CV Revamp & Cover Letter</li>
+                <li>📄 Business Plans</li>
+                <li>📄 Business Profiles</li>
+                <li>📄 Research</li>
+                <li>📄 School Projects</li>
+                <li>📄 Event Programs</li>
+                <li>📄 Letters/Invitations</li>
+            </ul>
+        </section>
+
+        <section id="documents" class="section">
+            <h2>Document Assistance</h2>
+            <ul>
+                <li>🎲 Birth Certificates</li>
+                <li>🎲 Certificate of Good Conduct</li>
+                <li>🎲 National ID</li>
+                <li>🎲 Passport Application</li>
+                <li>🎲 EPRA Services</li>
+                <li>🎲 NHIF Services</li>
+                <li>🎲 NSSF Services</li>
+            </ul>
+        </section>
     </div>
+
     <footer>
-        <p>&copy; 2024 Your Business. All rights reserved.</p>
+        <p>&copy; 2024 Thynk Unlimited. All rights reserved.</p>
     </footer>
 </body>
 </html>
